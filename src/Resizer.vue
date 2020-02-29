@@ -76,8 +76,8 @@ export default {
         height = inRange(this.minHeight, maxHeight, height)
 
         this.size = { width, height }
-        el.style.width = width + 'px'
-        el.style.height = height + 'px'
+        el.style.width = width + 'vw'
+        el.style.height = height + 'vh'
 
         this.$emit('resize', {
           element: el,
