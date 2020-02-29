@@ -449,10 +449,10 @@ export default {
      * Event handler which is triggered on modal resize
      */
     handleModalResize (event) {
-      this.modal.widthType = 'px'
+      this.modal.widthType = 'vw'
       this.modal.width = event.size.width
 
-      this.modal.heightType = 'px'
+      this.modal.heightType = 'vh'
       this.modal.height = event.size.height
 
       const { size } = this.modal
