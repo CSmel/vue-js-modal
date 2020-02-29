@@ -172,9 +172,9 @@ export default {
 
       modal: {
         width: 0,
-        widthType: 'px',
+        widthType: 'vh',
         height: 0,
-        heightType: 'px',
+        heightType: 'vw',
         renderedHeight: 0
       },
 
